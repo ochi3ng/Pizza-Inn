@@ -6,7 +6,7 @@ interface IAppProps {
 const Aboutus = () => {
     return(
         <div>
-            about
+          <h1>Welcome to about us</h1>
         </div>
     )
 };

@@ -1,0 +1,16 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.navbar-content{
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  background-color: darkgray;
+}
+.logo{
+  width: 80px;
+  height: 40px;
+}

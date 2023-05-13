@@ -1,0 +1,12 @@
+.image{
+    width: 20vw;
+    height: 20vw;
+}
+.description{
+    width: 100px;
+}
+.title{
+    font-size: smaller;
+    width: 300px;
+    margin-bottom: 0;
+}

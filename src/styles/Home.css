@@ -1,0 +1,15 @@
+.home{
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Ffood-pizza&psig=AOvVaw0jINOJaogGqI-keSiG4AUw&ust=1683986161415000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJCm9rv37_4CFQAAAAAdAAAAABAE");
+
+}
+.home-text{
+    font-size: 1.5cm;
+    color: aqua;
+   align-items: center;
+}
+.backimage{
+  width: 100%;
+}

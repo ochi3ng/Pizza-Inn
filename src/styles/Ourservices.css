@@ -1,0 +1,10 @@
+.services-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service-title{
+    font-size:1.5cm;
+    color: aqua;
+    text-align: center;
+}

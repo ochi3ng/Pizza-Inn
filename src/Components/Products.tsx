@@ -10,8 +10,8 @@ const Products = ({ title, description, price,image }:props)=>{
 return(
     <div className='products'>
         <h1 className='title'>{title}</h1>
-        <div>{price}</div>
          <img className='image' src={image} alt=""/>
+        <div>Sh.{price.toFixed(2)}</div>
     </div>
 )
 };

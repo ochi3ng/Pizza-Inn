@@ -16,7 +16,7 @@ const OurProducts = () => {
       .then(data => setProduct(data))
   })
   return (
-    <div>
+    <div className='service'>
             <h1 className='service-title'>Welcome to our shop</h1>
       <div className='services-details'>
 

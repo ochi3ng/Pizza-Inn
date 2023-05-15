@@ -5,7 +5,7 @@ interface IAppProps {
 
 const Ourstaff=() => {
   return(
-    <div>
+    <div className="home">
       <h1>Welcome to our staff page</h1>
     </div>
   ) ;

@@ -6,7 +6,7 @@
   justify-content: center;
   text-align: center;
   color: white;
-  background-image:url("../assets/cole.jpg");
+  background-image:url("../assets/bout.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -15,7 +15,7 @@
 .home-text{
     font-size: 1.5cm;
     color: blue;
-    margin-top: 200px;
+  
    align-items: center;
 }
 .backimage{

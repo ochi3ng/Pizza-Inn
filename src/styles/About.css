@@ -1,0 +1,8 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-text{
+    width: 300px;
+    margin-left: 3rem;
+}

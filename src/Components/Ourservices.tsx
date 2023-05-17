@@ -9,15 +9,18 @@ export type Props = {
 }
 const OurProducts = () => {
   const [product, setProduct] = useState<Props[]>([])
-
+  async function FetchData() {
+    const Response = await fetch('https://fakestoreapi.com/products')
+    const json = await Response.json();
+    setProduct(json);
+  }
+ 
   useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
-      .then(Response => Response.json())
-      .then(data => setProduct(data))
-  })
+    FetchData()
+  }, [])
   return (
     <div className='service'>
-            <h1 className='service-title'>Welcome to our shop</h1>
+      <h1 className='service-title'>Welcome to our shop</h1>
       <div className='services-details'>
 
         {product.map(item => <Products title={item.title}
@@ -25,7 +28,7 @@ const OurProducts = () => {
 
       </div>
     </div>
-   
+
   )
 };
 

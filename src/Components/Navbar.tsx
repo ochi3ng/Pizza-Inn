@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Logo from "../assets/pizalogo.png"
+import Logo from "../assets/ximi.png"
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css'
 

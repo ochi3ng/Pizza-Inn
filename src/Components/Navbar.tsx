@@ -13,6 +13,10 @@ const Navbar= () =>{
         <Link to='/about'>About Us</Link>
         <Link to='/staff'>Our staff</Link>
         <Link to='/product'>Our Products</Link>
+        <div>
+          <img className='logo-basket' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZgaoIL8olHQQgghKVD5jAGvhLYm9nJijOUKPbN8Dmt-KbKnzaikV-P3_BmeOGG4QKTlg&usqp=CAU' alt='' />
+          <h1 className='number'>0</h1>
+        </div>
     </div>
    </div> 
   )

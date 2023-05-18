@@ -11,3 +11,11 @@
     margin-bottom: 0;
     color: white;
 }
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.addtocartbutton{
+background-color: red;
+color: white;
+}
